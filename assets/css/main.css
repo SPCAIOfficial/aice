@@ -671,3 +671,124 @@ th {
   border: 1px solid #ddd;
   padding: 10px;
 }
+.registration-info {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.registration-info h3 {
+  color: #333;
+  font-size: 18px;
+  margin-top: 0;
+}
+
+.registration-info p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.registration-info ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.registration-info ul li {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.registration-info .prizes {
+  background-color: #ffd700;
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.registration-info .prizes h4 {
+  color: #333;
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.registration-info a {
+  display: inline-block;
+  background-color: #338dec;
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+}
+.registration-info {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.registration-info h3 {
+  color: #333;
+  font-size: 20px;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.registration-info p {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.registration-info p strong {
+  color: #007bff;
+}
+
+.registration-info .highlight {
+  color: #007bff;
+  font-weight: bold;
+}
+
+.registration-info .deadline {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+.registration-info a:hover {
+  background-color: #0056b3;
+}
+.prize-table {
+  border-collapse: collapse;
+  width: 30%;
+}
+
+.prize-table th, .prize-table td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 6px; /* Adjusted padding */
+  font-size: 14px; /* Adjusted font size */
+}
+
+.prize-table th {
+  background-color: #bfe2f7;
+}
+
+.prize-gold {
+  color: #ffd700;
+  font-weight: bold;
+}
+
+.prize-silver {
+  color: #8f2929;
+  font-weight: bold;
+}
+
+.prize-bronze {
+  color: #cd7f32;
+  font-weight: bold;
+}
