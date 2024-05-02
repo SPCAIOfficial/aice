@@ -338,6 +338,34 @@ ul li {
   background-color: #fff;
 }
 
+
+
+.sponsor {
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f2f2f2; /* Grey background color */
+  padding-left: 90px; /* Spacing on the left side */
+  padding-right: 90px; /* Spacing on the right side */
+}
+
+.sponsor h4 {
+  text-align: center;
+}
+
+.sponsor p {
+  text-align: justify;
+}
+
+.sponsor img {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+
+
 .navbar-solid {
   background-color: #000 !important;
   padding: 0 !important;
