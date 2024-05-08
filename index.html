@@ -71,7 +71,7 @@
 
             <h1>Artificial Intelligence Conference and Expo 2024</h1>
 
-            <div id="countdown"></div>
+            <div class="timer-bg" id="countdown" style="background-color: rgb(249, 194, 54); width: 30%; margin: 0 auto; padding: 20px; margin-bottom: 10px; border-radius:10px; color: black; font-weight: bold;"></div>
 
             <h2>27 - 29 May 2024</h2>
             <p>@ Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology, Haripur, Pakistan<p>
@@ -871,8 +871,9 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="countdown"
-  document.getElementById("countdown").innerHTML = "<b>Remaining time:</b> " + days + "<small> days</small> " + hours + "<small> hours</small> "
-  + minutes + "<small> min</small> " + seconds + "<small> sec</small> ";
+  document.getElementById("countdown").innerHTML = "<b style='font-size: 18px;'>The Event Begins In:</b> " + days + "<small><b> days</b></small> " + hours + "<small><b> hours </b></small> "
+  + minutes + "<small><b> min</b></small> " + seconds + "<small> sec</small> ";
+
 
   // If the countdown is over, display a message
   if (distance < 0) {
