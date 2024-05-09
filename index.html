@@ -871,8 +871,8 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Display the result in the element with id="countdown"
-  document.getElementById("countdown").innerHTML = "<b style='font-size: 18px;'>The Event Begins In:</b> " + days + "<small><b> days</b></small> " + hours + "<small><b> hours </b></small> "
-  + minutes + "<small><b> min</b></small> " + seconds + "<small> sec</small> ";
+  document.getElementById("countdown").innerHTML = "<b style='font-size: 18px;'>The Event Begins In:</b> " + days + "<medium><b> days</b></medium> " + hours + "<medium><b> hours </b></medium> "
+  + minutes + "<medium><b> min</b></medium> " + seconds + "<medium> sec</medium> ";
 
 
   // If the countdown is over, display a message
