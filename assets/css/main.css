@@ -546,6 +546,9 @@ ul li {
 .partner .partner-box:hover {
   opacity: 1;
 }
+.partner .sponsor-box-1 {
+  background: url(../images/Sponsers/sponsor-1.jpeg) no-repeat center center/contain;
+ }
 .partner .partner-box-1 {
  background: url(../images/partner/partner-1.png) no-repeat center center/contain;
 }
